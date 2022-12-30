@@ -20,11 +20,6 @@ export default function Home({ set_current_route }) {
     const [recommended, set_recommended] = useState([])
     useEffect(() => {
         set_current_route('home');
-        test().then(res => {
-            console.log(res)
-        }).catch(err => {
-            console.log(err)
-        })
         getallOrg().then(res => {
             if (res !== 'error') {
                 set_list(res)
