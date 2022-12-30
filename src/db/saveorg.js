@@ -1,6 +1,6 @@
 
 const saveOrg = async (data) => {
-    let x = await fetch('http://ec2-54-82-252-133.compute-1.amazonaws.com:4000/save-org', {
+    let x = await fetch('https://apimarketica.org/save-org', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
