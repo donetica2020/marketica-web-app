@@ -1,0 +1,203 @@
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoSection {
+  display: flex;
+  flex: 0.4;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+}
+
+#logoimage {
+  height: 40px;
+  width: 40px;
+}
+h2 {
+    font-size: 30px;
+    margin-left: 15px;
+    color: #0FBDAC;
+
+}
+
+.linkSection {
+  display: flex;
+  flex:1;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-right: 10%;
+  padding-left: 20%;
+  align-items: center;
+}
+
+.selected {
+    color: #0FBDAC;
+    text-decoration: none;
+font-weight:normal;
+    font-size: 15px;
+   
+}
+
+.not-selected {
+    color: #25272A;
+    text-decoration: none;
+font-weight:normal;
+    font-size: 15px;
+}
+@media screen and (max-width: 992px) {
+    * {
+        font-family: 'Poppins';
+    }
+    .NavBar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .logoSection {
+      display: flex;
+      flex: 0.4;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10%;
+    }
+    
+    #logoimage {
+      height: 30px;
+      width: 30px;
+    }
+    h2 {
+        font-size: 24px;
+        margin-left: 10px;
+        color: #0FBDAC;
+    
+    }
+    
+    .linkSection {
+      display: flex;
+      flex:1;
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding-right: 5%;
+      padding-left: 10%;
+      align-items: center;
+    }
+    
+    .selected {
+        color: #0FBDAC;
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 13px;
+       
+    }
+    
+    .not-selected {
+        color: #25272A;
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 13px;
+    }
+}
+
+@media  screen and (max-width: 600px) {
+    .NavBar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logoSection {
+        display: flex;
+        flex: 0.5;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #logoimage {
+        width: 25px;
+        height: 25px;
+    }
+    h2 {
+        font-size: medium;
+    }
+    
+    .linkSection {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        padding-right: 10%;
+        padding-left: 10%;
+        flex: 0.5;
+    }
+    
+    .selected {
+        font-size: small;
+        margin-right: 2%;
+        margin-left: 2%;
+        color: #0FBDAC;
+    }
+    
+    .not-selected {
+        font-size: small;
+        margin-right: 2%;
+        margin-left: 2%;
+        color: #25272A;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .NavBar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logoSection {
+        display: flex;
+        flex: 0.5;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #logoimage {
+        width: 25px;
+        height: 25px;
+    }
+    h2 {
+        font-size: medium;
+    }
+    
+    .linkSection {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        padding-right: 10%;
+        padding-left: 10%;
+        flex: 0.5;
+    }
+    
+    .selected {
+        font-size: small;
+        margin-right: 2%;
+        margin-left: 2%;
+        color: #0FBDAC;
+    }
+    
+    .not-selected {
+        font-size: small;
+        margin-right: 2%;
+        margin-left: 2%;
+        color: #25272A;
+    }
+}

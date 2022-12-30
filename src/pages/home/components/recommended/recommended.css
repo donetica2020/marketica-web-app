@@ -1,0 +1,1091 @@
+@media (min-width: 0px) and (max-height: 740px) {
+  .container {
+    margin-top: 2%;
+    background-image: url("../../assets/Section2-BG.png");
+    height: 35%;
+    width: 99%;
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+    resize: both;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .text-container {
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+  .text-container h1 {
+    width: 50%;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 6%;
+  }
+  .text-container p {
+    font-size: 8px;
+    text-align: right;
+    width: 50%;
+    margin-right: 6%;
+    color: #00c798;
+  }
+  .org-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    justify-content: center;
+    overflow: hidden;
+    width: 90%;
+    align-self: center;
+  }
+  .org {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 199, 152);
+    margin: 1.5%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-left: 2px;
+    padding-right: 2px;
+    box-shadow: 0 4px 8px 0 rgba(15, 14, 14, 0.2);
+    margin-top: 4px;
+    transition: 0.3s;
+    padding-bottom: 15px;
+    border-radius: 5px;
+  }
+  .org:hover {
+    box-shadow: 0 8px 16px 0 rgba(221, 93, 93, 0.2);
+  }
+  .orgnaization-item {
+    margin-top: 8px;
+    width: 90%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #website-link-id {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 90%;
+    height: 50px;
+    z-index: 5;
+  }
+  #country-name {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 600;
+    color: #192220;
+    font-size: 7px;
+  }
+  #org-name {
+    font-size: 7px;
+    color: #25272b;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .org a {
+    text-decoration: none;
+    font-size: 8px;
+    color: #3d6c7c;
+    font-weight: 400;
+    margin-top: 2px;
+  }
+  #mission-text {
+    margin-top: 7px;
+    color: #25272b;
+    font-size: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+}
+@media (min-width: 0px) and (min-height: 740.01px) {
+  .container {
+    margin-top: 2%;
+    background-image: url("../../assets/Section2-BG.png");
+    width: 99%;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    height: 25%;
+    resize: both;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-size: calc();
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .text-container {
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+  .text-container h1 {
+    width: 50%;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 2%;
+  }
+  .text-container p {
+    font-size: 8px;
+    text-align: right;
+    width: 50%;
+    margin-right: 2%;
+    color: #00c798;
+  }
+  .org-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    justify-content: center;
+    overflow: hidden;
+    width: 90%;
+    align-self: center;
+  }
+  .org {
+    width: 80%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 199, 152);
+    margin: 1.5%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-left: 2px;
+    padding-right: 2px;
+    box-shadow: 0 4px 8px 0 rgba(15, 14, 14, 0.2);
+    margin-top: 4px;
+    transition: 0.3s;
+    padding-bottom: 15px;
+    border-radius: 5px;
+  }
+  .org:hover {
+    box-shadow: 0 8px 16px 0 rgba(221, 93, 93, 0.2);
+  }
+  .orgnaization-item {
+    margin-top: 8px;
+    width: 90%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #website-link-id {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 90%;
+    height: 50px;
+    z-index: 5;
+  }
+  #country-name {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 600;
+    color: #192220;
+    font-size: 7px;
+  }
+  #org-name {
+    font-size: 7px;
+    color: #25272b;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .org a {
+    text-decoration: none;
+    font-size: 8px;
+    color: #3d6c7c;
+    font-weight: 400;
+    margin-top: 2px;
+  }
+  #mission-text {
+    margin-top: 7px;
+    color: #25272b;
+    font-size: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+}
+@media (min-width: 576px) and (max-height: 600px) {
+  .container {
+    margin-top: 2%;
+    background-image: url("../../assets/Section2-BG.png");
+    width: 99.4%;
+    height: 50%;
+    resize: both;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-size: cover;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .text-container {
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+  .text-container h1 {
+    width: 50%;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 6%;
+  }
+  .text-container p {
+    font-size: 8px;
+    text-align: right;
+    width: 50%;
+    margin-right: 6%;
+    color: #00c798;
+  }
+  .org-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    justify-content: center;
+    overflow: hidden;
+    width: 90%;
+    align-self: center;
+  }
+  .org {
+    width: 80%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 199, 152);
+    margin: 1.5%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-left: 2px;
+    padding-right: 2px;
+    box-shadow: 0 4px 8px 0 rgba(15, 14, 14, 0.2);
+    margin-top: 4px;
+    transition: 0.3s;
+    padding-bottom: 15px;
+    border-radius: 5px;
+  }
+  .org:hover {
+    box-shadow: 0 8px 16px 0 rgba(221, 93, 93, 0.2);
+  }
+  .orgnaization-item {
+    margin-top: 8px;
+    width: 90%;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #website-link-id {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 90%;
+    height: 80px;
+    z-index: 5;
+  }
+  #country-name {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #192220;
+    font-size: 9px;
+  }
+  #org-name {
+    font-size: 10px;
+    color: #25272b;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .org a {
+    text-decoration: none;
+    font-size: 8px;
+    color: #3d6c7c;
+    font-weight: 400;
+    margin-top: 2px;
+  }
+  #mission-text {
+    margin-top: 10px;
+    color: #25272b;
+    font-size: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+@media (min-width: 576px) and (min-height: 601.01px) {
+  .container {
+    margin-top: 2%;
+    background-image: url("../../assets/Section2-BG.png");
+    width: 99.4%;
+    height: 50%;
+    resize: both;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-size: cover;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .text-container {
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+  .text-container h1 {
+    width: 50%;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 3%;
+  }
+  .text-container p {
+    font-size: 9px;
+    text-align: right;
+    width: 50%;
+    margin-right: 3%;
+    color: #00c798;
+  }
+  .org-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5%;
+    justify-content: center;
+    overflow: hidden;
+    width: 90%;
+    align-self: center;
+  }
+  .org {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 199, 152);
+    margin: 1.5%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-left: 2px;
+    padding-right: 2px;
+    box-shadow: 0 4px 8px 0 rgba(15, 14, 14, 0.2);
+    margin-top: 4px;
+    transition: 0.3s;
+    padding-bottom: 15px;
+    border-radius: 5px;
+  }
+  .org:hover {
+    box-shadow: 0 8px 16px 0 rgba(221, 93, 93, 0.2);
+  }
+  .orgnaization-item {
+    margin-top: 8px;
+    width: 90%;
+    height: 120px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #website-link-id {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 90%;
+    height: 80px;
+    z-index: 5;
+  }
+  #country-name {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #192220;
+    font-size: 9px;
+  }
+  #org-name {
+    font-size: 10px;
+    color: #25272b;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .org a {
+    text-decoration: none;
+    font-size: 8px;
+    color: #3d6c7c;
+    font-weight: 400;
+    margin-top: 2px;
+  }
+  #mission-text {
+    margin-top: 10px;
+    color: #25272b;
+    font-size: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+@media (min-width: 768px) and (max-height: 1024px) {
+  .container {
+    margin-top: 2%;
+    background-image: url("../../assets/Section2-BG.png");
+    width: 99.6%;
+    height: 35%;
+    resize: both;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-size: cover;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+  }
+  .text-container {
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+  .text-container h1 {
+    width: 50%;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 3%;
+  }
+  .text-container p {
+    font-size: 9px;
+    text-align: right;
+    width: 50%;
+    margin-right: 3%;
+    color: #00c798;
+  }
+  .org-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5%;
+    justify-content: center;
+    overflow: hidden;
+    width: 90%;
+    align-self: center;
+  }
+  .org {
+    width: 80%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 199, 152);
+    margin: 1.5%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-left: 2px;
+    padding-right: 2px;
+    box-shadow: 0 4px 8px 0 rgba(15, 14, 14, 0.2);
+    margin-top: 4px;
+    transition: 0.3s;
+    padding-bottom: 15px;
+    border-radius: 5px;
+  }
+  .org:hover {
+    box-shadow: 0 8px 16px 0 rgba(221, 93, 93, 0.2);
+  }
+  .orgnaization-item {
+    margin-top: 8px;
+    width: 90%;
+    height: 120px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #website-link-id {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 90%;
+    height: 80px;
+    z-index: 5;
+  }
+  #country-name {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #192220;
+    font-size: 10px;
+  }
+  #org-name {
+    font-size: 12px;
+    color: #25272b;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .org a {
+    text-decoration: none;
+    font-size: 10px;
+    color: #3d6c7c;
+    font-weight: 400;
+    margin-top: 2px;
+  }
+  #mission-text {
+    margin-top: 15px;
+    color: #25272b;
+    font-size: 9px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+@media (min-width: 768px) and (min-height: 1024.01px) {
+  .container {
+    margin-top: 2%;
+    background-image: url("../../assets/Section2-BG.png");
+    width: 99.6%;
+    height: 35%;
+    resize: both;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-size: cover;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .text-container {
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+  .text-container h1 {
+    width: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 3%;
+  }
+  .text-container p {
+    font-size: 12px;
+    text-align: right;
+    width: 50%;
+    margin-right: 3%;
+    color: #00c798;
+  }
+  .org-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5%;
+    justify-content: center;
+    overflow: hidden;
+    width: 90%;
+    align-self: center;
+  }
+  .org {
+    width: 80%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 199, 152);
+    margin: 1.5%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-left: 2px;
+    padding-right: 2px;
+    box-shadow: 0 4px 8px 0 rgba(15, 14, 14, 0.2);
+    margin-top: 4px;
+    transition: 0.3s;
+    padding-bottom: 15px;
+    border-radius: 5px;
+  }
+  .org:hover {
+    box-shadow: 0 8px 16px 0 rgba(221, 93, 93, 0.2);
+  }
+  .orgnaization-item {
+    margin-top: 8px;
+    width: 90%;
+    height: 120px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #website-link-id {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 90%;
+    height: 80px;
+    z-index: 5;
+  }
+  #country-name {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #192220;
+    font-size: 10px;
+  }
+  #org-name {
+    font-size: 12px;
+    color: #25272b;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .org a {
+    text-decoration: none;
+    font-size: 10px;
+    color: #3d6c7c;
+    font-weight: 400;
+    margin-top: 2px;
+  }
+  #mission-text {
+    margin-top: 15px;
+    color: #25272b;
+    font-size: 9px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    margin-top: 2%;
+    background-image: url("../../assets/Section2-BG.png");
+    width: 99.6%;
+    height: 45%;
+    resize: both;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-size: cover;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .text-container {
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+  .text-container h1 {
+    width: 50%;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 3%;
+  }
+  .text-container p {
+    font-size: 13px;
+    text-align: right;
+    width: 50%;
+    margin-right: 3%;
+    color: #00c798;
+  }
+  .org-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5%;
+    justify-content: center;
+    overflow: hidden;
+    width: 90%;
+    align-self: center;
+  }
+  .org {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 199, 152);
+    margin: 1.5%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-left: 2px;
+    padding-right: 2px;
+    box-shadow: 0 4px 8px 0 rgba(15, 14, 14, 0.2);
+    margin-top: 4px;
+    transition: 0.3s;
+    padding-bottom: 15px;
+    border-radius: 5px;
+  }
+  .org:hover {
+    box-shadow: 0 8px 16px 0 rgba(221, 93, 93, 0.2);
+  }
+  .orgnaization-item {
+    margin-top: 8px;
+    width: 90%;
+    height: 120px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #website-link-id {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 90%;
+    height: 80px;
+    z-index: 5;
+  }
+  #country-name {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #192220;
+    font-size: 10px;
+  }
+  #org-name {
+    font-size: 12px;
+    color: #25272b;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .org a {
+    text-decoration: none;
+    font-size: 10px;
+    color: #3d6c7c;
+    font-weight: 400;
+    margin-top: 2px;
+  }
+  #mission-text {
+    margin-top: 15px;
+    color: #25272b;
+    font-size: 9px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    margin-top: 2%;
+    background-image: url("../../assets/Section2-BG.png");
+    width: 99.7%;
+    height: 45%;
+    resize: both;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-size: cover;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+  }
+  .text-container {
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+  .text-container h1 {
+    width: 45%;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 3%;
+  }
+  .text-container p {
+    font-size: 13px;
+    text-align: right;
+    width: 55%;
+    margin-right: 3%;
+    color: #00c798;
+  }
+  .org-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5%;
+    justify-content: center;
+    overflow: hidden;
+    width: 90%;
+    align-self: center;
+  }
+  .org {
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 199, 152);
+    margin: 1.5%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-left: 2px;
+    padding-right: 2px;
+    box-shadow: 0 4px 8px 0 rgba(15, 14, 14, 0.2);
+    margin-top: 4px;
+    transition: 0.3s;
+    padding-bottom: 10px;
+    border-radius: 5px;
+  }
+  .org:hover {
+    box-shadow: 0 8px 16px 0 rgba(221, 93, 93, 0.2);
+  }
+  .orgnaization-item {
+    margin-top: 8px;
+    width: 90%;
+    height: 180px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #website-link-id {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 90%;
+    height: 80px;
+    z-index: 5;
+  }
+  #country-name {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #192220;
+    font-size: 10px;
+  }
+  #org-name {
+    font-size: 12px;
+    color: #25272b;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .org a {
+    text-decoration: none;
+    font-size: 10px;
+    color: #3d6c7c;
+    font-weight: 400;
+    margin-top: 2px;
+  }
+  #mission-text {
+    margin-top: 15px;
+    color: #25272b;
+    font-size: 9px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    margin-top: 2%;
+    background-image: url("../../assets/Section2-BG.png");
+    width: 99.8%;
+    height: 70%;
+    resize: both;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-size: cover;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+  }
+  .text-container {
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+  .text-container h1 {
+    width: 40%;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 3%;
+  }
+  .text-container p {
+    font-size: 22px;
+    text-align: right;
+    width: 55%;
+    margin-right: 3%;
+    color: #00c798;
+  }
+  .org-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5%;
+    justify-content: center;
+    overflow: hidden;
+    width: 90%;
+    align-self: center;
+  }
+  .org {
+    width: 80%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 199, 152);
+    margin: 1.5%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-left: 2px;
+    padding-right: 2px;
+    box-shadow: 0 4px 8px 0 rgba(15, 14, 14, 0.2);
+    margin-top: 4px;
+    transition: 0.3s;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .org:hover {
+    box-shadow: 0 8px 16px 0 rgba(221, 93, 93, 0.2);
+  }
+  .orgnaization-item {
+    margin-top: 10px;
+    width: 85%;
+    height: 180px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+  #website-link-id {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 90%;
+    height: 80px;
+    z-index: 5;
+  }
+  #country-name {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #192220;
+    font-size: 10px;
+  }
+  #org-name {
+    font-size: 12px;
+    color: #25272b;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .org a {
+    text-decoration: none;
+    font-size: 10px;
+    color: #3d6c7c;
+    font-weight: 400;
+    margin-top: 2px;
+  }
+  #mission-text {
+    margin-top: 15px;
+    color: #25272b;
+    font-size: 9px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+/*
+    
+    @media (min-width:0px) and (max-height:740px) {
+      
+    }
+    @media (min-width:0px) and (min-height:740.01px) {
+     
+    }
+    @media (min-width: 576px) and (max-height:600px){
+    
+    }
+    @media (min-width: 576px) and (min-height:601.01px){
+     
+    }
+    @media (min-width:768px) and (max-height:1024px) {
+
+    }
+    @media (min-width:768px) and (min-height:1024.01px){
+
+    }
+    @media(min-width:992px){
+     
+    }
+    @media (min-width:1200px){
+     
+    }
+    @media (min-width:1400px){
+
+    }
+      .OrgList {
+   
+  }
+    */
