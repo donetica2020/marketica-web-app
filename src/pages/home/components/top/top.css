@@ -57,13 +57,13 @@
   #searchbar {
     background-color: transparent;
     border: none;
-    font-size: 12px;
-    width: 95%;
+    font-size: 16px;
+    width: 80%;
     outline-width: 0;
   }
   #search-icon {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     color: #8a8280;
   }
   .filter-form {
@@ -96,7 +96,7 @@
   #category {
     background-color: transparent;
     border: none;
-    font-size: 10px;
+    font-size: 16px;
     width: 95%;
     outline-width: 0;
     color: #000000;
@@ -107,13 +107,13 @@
     background-color: #25272b;
     justify-content: center;
     align-items: center;
-    height: 25px;
+    height: 35px;
     width: 120px;
     border-radius: 10px;
   }
   #select-button p {
     color: #ffffff;
-    font-size: 10px;
+    font-size: 12px;
   }
   .filter-form-center {
     margin-top: 2.5%;
@@ -222,8 +222,8 @@
   #searchbar {
     background-color: transparent;
     border: none;
-    font-size: 12px;
-    width: 95%;
+    font-size: 16px;
+    width: 80%;
     outline-width: 0;
   }
   #search-icon {
@@ -261,7 +261,7 @@
   #category {
     background-color: transparent;
     border: none;
-    font-size: 10px;
+    font-size: 16px;
     width: 95%;
     outline-width: 0;
     color: #000000;
