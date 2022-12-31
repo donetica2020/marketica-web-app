@@ -1,19 +1,13 @@
 import { useState } from 'react';
 import './form.css';
 import Dropdown from 'react-dropdown';
-import { continents, countries } from '../../../../constant';
+import { all_countries, continents, countries } from '../../../../constant';
 import saveOrg from '../../../../db/saveorg';
 import validator from 'validator'
 
 export default function Form() {
     const [continent, set_selected_continent] = useState();
     const [country, set_selected_country] = useState();
-    //references
-    const validateUrl = (url) => {
-        let regex = /^((https?):\/\/)?([w|W]{3}\.)+[a-zA-Z0-9\-\.]{3,}\.[a-zA-Z]{2,}(\.[a-zA-Z]{2,})?$/
-        return regex.test(url)
-    }
-
     function myFunction() {
         var elements = document.getElementById("org-form").elements;
         var obj = {};
@@ -104,11 +98,11 @@ export default function Form() {
                         </div>
                         <div className='input'>
                             <label className='label' htmlFor='country' >Country*</label>
-                            <Dropdown disabled={continent == undefined} name='country'
+                            <Dropdown  name='country'
                                 className='shortInput' onChange={(e) => {
                                     set_selected_country(e.label)
                                 }} placeholderClassName='short-input-placeholder' menuClassName='short-menu'
-                                options={continent !== undefined ? countries[continent] : []}
+                                options={all_countries}
                                 controlClassName='short-input-placeholder' placeholder={country == undefined ? '' : country} />
                         </div>
                     </div>

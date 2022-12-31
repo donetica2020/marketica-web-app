@@ -5,7 +5,7 @@ export default function NavBar({current_route}) {
 
     return (
         <div className="NavBar">
-            <a target="_blank" rel="noopener noreferrer" href='https://www.marketica.com' className="logoSection">
+            <a target="_blank" rel="noopener noreferrer" href='https://marketica.org' className="logoSection">
                 <img src={image} alt='marketica-logo' id='logoimage'   />
                 <h2>Marketica</h2>
             </a>
