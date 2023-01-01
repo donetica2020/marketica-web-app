@@ -1704,14 +1704,14 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 150%;
+    height: 190%;
     width: 100%;
     margin-top: 5px;
     overflow-y: scroll;
     resize: both;
   }
   .topHeadingPart {
-    padding-top: 10%;
+    padding-top: 15%;
     width: 70%;
     margin-left: 4%;
   }
@@ -1724,7 +1724,7 @@
     letter-spacing: 2px;
   }
   .paraDiv {
-    width: 60%;
+    width: 57%;
     padding-left: 5px;
     border-left: solid #0dc49a 10px;
     justify-content: center;
@@ -1740,7 +1740,7 @@
     padding-left: 5px;
   }
   .searchbar {
-    margin-top: 2%;
+    margin-top: 4%;
     width: 55%;
     display: flex;
     flex-direction: row;
@@ -1769,8 +1769,8 @@
     margin-top: 12%;
     background-color: #ffffff90;
     width: 55%;
-    padding-top: 25px;
-    padding-bottom: 50px;
+    padding-top: 35px;
+    padding-bottom: 55px;
     border-radius: 10px;
     border: none;
     padding-left: 15px;
@@ -1819,7 +1819,7 @@
     font-size: 10px;
   }
   .filter-form-center {
-    margin-top: 1%;
+    margin-top: 6%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1842,7 +1842,7 @@
     align-items: center;
     width: 95%;
     justify-content: space-between;
-    margin-top: 3%;
+    margin-top: 6%;
   }
   .drop-div p {
     color: #25272b;

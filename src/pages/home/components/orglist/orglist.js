@@ -7,7 +7,10 @@ export default function OrgList({ list, filteredList }) {
     const [currentIndex, setCurrentIndex] = useState(0)
     const [upperOrg, setUpperOrg] = useState([currentIndex, currentIndex + 1, currentIndex + 2])
     const [lowerOrg, setLowerOrg] = useState([currentIndex + 3, currentIndex + 4, currentIndex + 5]);
+    useEffect(() =>{
 
+    },[filteredList]);
+    
     const handleNext = () => {
         if (currentIndex < list.length) {
             let index = currentIndex;

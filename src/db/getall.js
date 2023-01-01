@@ -12,6 +12,5 @@ const getallOrg = async() =>{
         return 'error'
     })
     return data
-
 }
 export default getallOrg
