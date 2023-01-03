@@ -13,6 +13,7 @@ export default function Top({ list }) {
     const [country, set_selected_country] = useState();
     const [continent, set_selected_continent] = useState();
     const [filteredList, setFilteredList] = useState();
+    const [resultList, setResultList] = useState()
     const [searched, set_Searched] = useState();
     const [category, setCategory] = useState();
     const inputRef = useRef();
@@ -23,6 +24,7 @@ export default function Top({ list }) {
         inputRef.current.value = '';
         countryRef.current.value = '';
         contRef.current.value = '';
+        setResultList()
         setCategory();
         setFilteredList();
         set_selected_country();
@@ -36,7 +38,8 @@ export default function Top({ list }) {
             keyword: category !== undefined ? category : ""
         }
         filterSerch(data).then(res => {
-            setFilteredList(res)
+            setFilteredList(res);
+            setResultList(res)
         })
     }
 
@@ -56,10 +59,86 @@ export default function Top({ list }) {
     }
     const handleContinet = (e) => {
         set_selected_continent(e.label)
+        if (resultList !== undefined) {
+            if (country !== undefined && country !== '') {
+                let arr = []
+                resultList.map((item, index) => {
+                    if (item.continent == e.label && item.country == country) {
+                        arr.push(item)
+                    }
+                })
+                setFilteredList(arr)
+            } else {
+                let arr = []
+                resultList.map((item, index) => {
+                    if (item.continent == e.label) {
+                        arr.push(item)
+                    }
+                })
+                setFilteredList(arr)
+            }
+        } else {
+            if (country !== undefined && country !== '') {
+                let arr = []
+                list.map((item, index) => {
+                    if (item.continent == e.label && item.country == country) {
+                        arr.push(item)
+                    }
+                })
+                setFilteredList(arr)
+            } else {
+                let arr = []
+                list.map((item, index) => {
+                    if (item.continent == e.label) {
+                        arr.push(item)
+                    }
+                })
+                setFilteredList(arr)
+            }
+        }
     }
     const handleCountry = async (e) => {
         set_selected_country(e.label)
+        if (resultList !== undefined) {
+            if (continent !== undefined && continent !== '') {
+                let arr = []
+                resultList.map((item, index) => {
+                    if (item.continent == continent && item.country == e.label) {
+                        arr.push(item)
+                    }
+                })
+                setFilteredList(arr)
+            } else {
+                let arr = []
+                resultList.map((item, index) => {
+                    if (item.country == e.label) {
+                        arr.push(item)
+                    }
+                })
+                setFilteredList(arr)
+            }
+        } else {
+            if (continent !== undefined && continent !== '') {
+                let arr = []
+                list.map((item, index) => {
+                    if (item.continent == continent && item.country == e.label) {
+                        arr.push(item)
+                    }
+                })
+                setFilteredList(arr)
+            } else {
+                let arr = []
+                list.map((item, index) => {
+                    if (item.country == e.label) {
+                        arr.push(item)
+                    }
+                })
+                setFilteredList(arr)
+            }
+        }
     }
+
+
 
     return (
         <>
@@ -131,12 +210,12 @@ export default function Top({ list }) {
                     </div>
                 </div>
                 {
-                    list !== undefined && list.length >0 ?
-                    <OrgList list={list} filteredList={filteredList} />:
-                    null
+                    list !== undefined && list.length > 0 ?
+                        <OrgList list={list} filteredList={filteredList} /> :
+                        null
                 }
             </div>
-           
+
         </>
     )
 }
