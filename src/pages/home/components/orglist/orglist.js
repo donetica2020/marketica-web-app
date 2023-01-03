@@ -30,6 +30,7 @@ export default function OrgList({ list, filteredList }) {
             setLowerOrg([currentIndex + 3, currentIndex + 4, currentIndex + 5]);
         }
     }
+    
     const handleMore = () => {
         console.log('more')
     }
