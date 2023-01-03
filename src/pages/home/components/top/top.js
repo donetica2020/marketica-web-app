@@ -130,7 +130,11 @@ export default function Top({ list }) {
                         </div>
                     </div>
                 </div>
-                <OrgList list={list} filteredList={filteredList} />
+                {
+                    list !== undefined && list.length >0 ?
+                    <OrgList list={list} filteredList={filteredList} />:
+                    null
+                }
             </div>
            
         </>
