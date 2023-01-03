@@ -15,11 +15,10 @@ export default function RecommendedOrganization({ recommended }) {
                     recommended.map((item, index) => {
                         return (
                             <div className='org' key={index} >
-                                <div style={{ position: 'relative' }}>
+                                <div style={{ cursor: 'pointer' }} onClick={()=>{ window.open(item.donationurl, '_blank', 'noopener,noreferrer') }}>
                                     <iframe src={item.website} className='orgnaization-item' title={item.name}  >
 
                                     </iframe>
-                                    <a target="_blank" rel="noopener noreferrer" href={item.donationurl} id='website-link-id'></a>
                                 </div>
                                 <p id='country-name'>{item.country}</p>
                                 <a target="_blank" rel="noopener noreferrer" href={item.website} id='org-name'>{item.name}</a>

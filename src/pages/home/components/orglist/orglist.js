@@ -50,7 +50,8 @@ export default function OrgList({ list, filteredList }) {
                                     if (filteredList[item] !== undefined) {
                                         return (
                                             <div className='organization-container' key={index}>
-                                                <div style={{ position: 'relative' }}>
+                                                <div style={{ cursor: 'pointer' }} onClick={()=>{
+                                                     window.open(filteredList[item].donationurl, '_blank', 'noopener,noreferrer') }}>
                                                     <iframe src={filteredList[item].website} className='orgnaization-item' title={list[item].name}  >
 
                                                     </iframe>
@@ -69,11 +70,10 @@ export default function OrgList({ list, filteredList }) {
                                     if (list[item] !== undefined) {
                                         return (
                                             <div className='organization-container' key={index}>
-                                                <div style={{ position: 'relative' }}>
-                                                    <iframe src={list[item].website} className='orgnaization-item' title={list[item].name}  >
+                                                <div style={{cursor:'pointer'}} onClick={()=>{ window.open(list[item].donationurl, '_blank', 'noopener,noreferrer') }}>
+                                                    <iframe src={list[item].website}  className='orgnaization-item' title={list[item].name}  >
 
                                                     </iframe>
-                                                    <a target="_blank" rel="noopener noreferrer" href={list[item].donationurl} id='website-link-id'></a>
                                                 </div>
                                                 <p  id='country-name'>{list[item].country}</p>
                                                 <a target="_blank" rel="noopener noreferrer" href={list[item].website} id='org-name'>{list[item].name}</a>
@@ -95,11 +95,10 @@ export default function OrgList({ list, filteredList }) {
                                     if (filteredList[item] !== undefined) {
                                         return (
                                             <div className='organization-container' key={index}>
-                                                <div style={{ position: 'relative' }}>
+                                                <div style={{ cursor:'pointer'}} onClick={()=>{ window.open(filteredList[item].donationurl, '_blank', 'noopener,noreferrer') }}>
                                                     <iframe src={filteredList[item].website} className='orgnaization-item' title={list[item].name}  >
 
                                                     </iframe>
-                                                    <a target="_blank" rel="noopener noreferrer" href={filteredList[item].donationurl} id='website-link-id'></a>
                                                 </div>
                                                 <p id='country-name'>{filteredList[item].country}</p>
                                                 <a target="_blank" rel="noopener noreferrer" href={filteredList[item].website} id='org-name'>{[filteredList[item].name]}</a>
@@ -114,11 +113,10 @@ export default function OrgList({ list, filteredList }) {
                                     if (list[item] !== undefined) {
                                         return (
                                             <div className='organization-container' key={index}>
-                                                <div style={{ position: 'relative' }}>
+                                                <div style={{ cursor: 'pointer' }} onClick={()=>{ window.open(list[item].donationurl, '_blank', 'noopener,noreferrer') }}>
                                                     <iframe src={list[item].website} className='orgnaization-item' title={list[item].name}  >
 
                                                     </iframe>
-                                                    <a target="_blank" rel="noopener noreferrer"  href={list[item].donationurl} id='website-link-id'></a>
                                                 </div>
                                                 <p id='country-name'>{list[item].country}</p>
                                                 <a target="_blank" rel="noopener noreferrer" href={list[item].website} id='org-name'>{list[item].name}</a>
