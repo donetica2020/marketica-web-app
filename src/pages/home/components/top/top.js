@@ -209,13 +209,13 @@ export default function Top({ list }) {
                         </div>
                     </div>
                 </div>
-                {
-                    list !== undefined && list.length > 0 ?
-                        <OrgList list={list} filteredList={filteredList} /> :
-                        null
-                }
-            </div>
 
+            </div>
+            {
+                list !== undefined && list.length > 0 ?
+                    <OrgList list={list} filteredList={filteredList} /> :
+                    null
+            }
         </>
     )
 }
