@@ -27,6 +27,7 @@ a:hover {
 
 @media  screen and (max-width: 400px) {
   #hiddenForm {
+    padding-top: 10px;
     background-color: #333; /* Black background color */
     position: fixed; /* Make it stick/fixed */
     top: -200px; /* Hide the navbar 50 px outside of the top view */
@@ -37,7 +38,7 @@ a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    z-index: 1000;
+    z-index: 2000;
   }
   .hidden-searchbar {
     width: 60%;
@@ -78,7 +79,7 @@ a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    z-index: 1000;
+    z-index: 2000;
   }
   .hidden-searchbar {
     width: 45%;
@@ -119,7 +120,7 @@ a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    z-index: 1000;
+    z-index: 2000;
   }
   .hidden-searchbar {
     width: 45%;
@@ -161,7 +162,7 @@ a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    z-index: 1000;
+    z-index: 2000;
   }
   .hidden-searchbar {
     width: 40%;

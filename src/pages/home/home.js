@@ -35,8 +35,13 @@ export default function Home({ set_current_route }) {
         })
     }, []);
     useEffect(() => {
-        window.addEventListener('wheel', myScrollFunction)
-        return (() => { window.removeEventListener('wheel', myScrollFunction) })
+       //window.addEventListener('wheel', myScrollFunction);
+        window.addEventListener('scroll', myScrollFunction)
+
+        return (() => {
+          //window.removeEventListener('wheel', myScrollFunction)
+            window.removeEventListener('scroll', myScrollFunction)
+        })
     }, [])
 
     const myScrollFunction = () => {
@@ -57,9 +62,9 @@ export default function Home({ set_current_route }) {
 
 
     return (
-        <div className="home">
+        <div className="home" >
             <div id="hiddenForm">
-                <div  className='hidden-searchbar'>
+                <div className='hidden-searchbar'>
                     <input name='searched_text' id='hidden-searchbar-input' type='text' onChange={handleSearched} placeholder='SUPPORT US BY SEARCHING THE WEB' />
                     <a target="_blank" rel="noopener noreferrer" href={`https://www.bing.com/?q=${searched == undefined ? '' : searched}`}><FiSearch id='hidden-search-icon' /></a>
                 </div>
