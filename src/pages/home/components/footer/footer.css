@@ -5,11 +5,8 @@ a {
   .Footer {
     margin-top: 5%;
     padding-top: 5%;
-    width: 99.4%;
-    border-left: 1px solid red;
-    border-right: 2px solid red;
+    width: 100%;
     background-color: #25272b;
-    border-bottom: 2px solid red;
   }
   .footer-top {
     display: flex;
@@ -119,11 +116,8 @@ a {
   .Footer {
     margin-top: 5%;
     padding-top: 5%;
-    width: 99.5%;
-    border-left: 1px solid red;
-    border-right: 2px solid red;
+    width: 100%;
     background-color: #25272b;
-    border-bottom: 2px solid red;
     display: flex;
     flex-direction: column;
   }
@@ -237,11 +231,8 @@ a {
   .Footer {
     margin-top: 5%;
     padding-top: 5%;
-    width: 99.5%;
-    border-left: 1px solid red;
-    border-right: 2px solid red;
+    width: 100%;
     background-color: #25272b;
-    border-bottom: 2px solid red;
   }
   .footer-top {
     display: flex;
@@ -357,11 +348,8 @@ a {
   .Footer {
     margin-top: 5%;
     padding-top: 5%;
-    width: 99.7%;
-    border-left: 1px solid red;
-    border-right: 2px solid red;
+    width: 100%;
     background-color: #25272b;
-    border-bottom: 2px solid red;
   }
   .footer-top {
     display: flex;
@@ -476,11 +464,8 @@ a {
   .Footer {
     margin-top: 5%;
     padding-top: 5%;
-    width: 99.8%;
-    border-left: 1px solid red;
-    border-right: 2px solid red;
+    width: 100%;
     background-color: #25272b;
-    border-bottom: 2px solid red;
   }
   .footer-top {
     display: flex;
@@ -596,11 +581,8 @@ a {
   .Footer {
     margin-top: 5%;
     padding-top: 5%;
-    width: 99.7%;
-    border-left: 1px solid red;
-    border-right: 2px solid red;
+    width: 100%;
     background-color: #25272b;
-    border-bottom: 2px solid red;
   }
   .footer-top {
     display: flex;
@@ -724,11 +706,8 @@ a {
   .Footer {
     margin-top: 5%;
     padding-top: 5%;
-    width: 99.7%;
-    border-left: 1px solid red;
-    border-right: 2px solid red;
+    width: 100%;
     background-color: #25272b;
-    border-bottom: 2px solid red;
   }
   .footer-top {
     display: flex;
@@ -844,11 +823,8 @@ a {
   .Footer {
     margin-top: 5%;
     padding-top: 5%;
-    width: 99.8%;
-    border-left: 1px solid red;
-    border-right: 2px solid red;
+    width: 100%;
     background-color: #25272b;
-    border-bottom: 2px solid red;
   }
   .footer-top {
     display: flex;
@@ -964,11 +940,8 @@ a {
   .Footer {
     margin-top: 5%;
     padding-top: 5%;
-    width: 99.9%;
-    border-left: 1px solid red;
-    border-right: 2px solid red;
+    width: 100%;
     background-color: #25272b;
-    border-bottom: 2px solid red;
   }
   .footer-top {
     display: flex;
