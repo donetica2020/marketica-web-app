@@ -22,9 +22,9 @@ export default function Footer() {
                         <img src={email} alt='Email' className='link-icon' />
                         <p>info@marketica.org</p>
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=41762372731" target="_blank" rel="noopener noreferrer" className='link'>
+                    <a href="https://api.whatsapp.com/send?phone=12017719994" target="_blank" rel="noopener noreferrer" className='link'>
                         <img src={phone} alt='Email' className='link-icon' />
-                        <p>+41 76 237 27 31</p>
+                        <p>+1 201 77 199 94</p>
                     </a>
                     <div className='icon-container'>
                         <a className='small-container' target="_blank" rel="noopener noreferrer"><img src={twitter} alt={fb} className='small-icon' /></a>

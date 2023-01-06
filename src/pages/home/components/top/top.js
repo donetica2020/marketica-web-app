@@ -152,7 +152,7 @@ export default function Top({ list }) {
                     <div className='top-text-form-container'>
                         <div className='top-text-div'>
                             <div className='headingDiv'>
-                                <h1>The Market Place of Donation</h1>
+                                <h1>The Marketplace of Donations</h1>
                             </div>
                             <div className='paraDiv'>
                                 <div className='paraBorder'>
