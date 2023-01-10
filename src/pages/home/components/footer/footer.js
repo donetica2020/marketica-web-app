@@ -45,7 +45,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className='bottom'>
-                <p>Marketica by Donetica.com</p>
+                <p>Marketica.org by Donetica Inc.</p>
             </div>
         </div>
     )

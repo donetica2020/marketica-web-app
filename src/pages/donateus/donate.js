@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import './donate.css'
 
 export default function Donate({set_current_route}){
 
@@ -7,8 +8,19 @@ export default function Donate({set_current_route}){
     },[])
 
     return(
-        <div className="Donate">
+        <body>
+            <div className="donate">
+                
+                
+            <div className="section-wrapper">
+           <div className="text-wrapper">
+            <p>Coming soon...</p>
+       
+            </div>
 
-        </div>
+           </div> 
+            
+            </div>
+        </body>
     )
 }
